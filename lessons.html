@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lessons</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="layout">
+
+<aside class="sidebar">
+<h2 class="logo">StudyPortal</h2>
+<nav class="menu">
+<a href="home.html">Dashboard</a>
+<a href="lessons.html" class="active">Lessons</a>
+<a href="progress.html">Progress</a>
+</nav>
+</aside>
+
+<main class="content">
+
+<h1 class="page-title">Available Lessons</h1>
+<p class="subtitle">Choose a lesson to start learning</p>
+
+<div class="lesson-list">
+
+<div class="lesson-item">
+<div>
+<h3>HTML Introduction</h3>
+<p>Basics of webpage structure</p>
+</div>
+<button onclick="openLesson('html')">Open</button>
+</div>
+
+<div class="lesson-item">
+<div>
+<h3>CSS Basics</h3>
+<p>Styling and layout fundamentals</p>
+</div>
+<button onclick="openLesson('css')">Open</button>
+</div>
+
+<div class="lesson-item">
+<div>
+<h3>JavaScript Fundamentals</h3>
+<p>Client side scripting concepts</p>
+</div>
+<button onclick="openLesson('js')">Open</button>
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

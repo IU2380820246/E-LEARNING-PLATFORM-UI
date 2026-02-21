@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body onload="showProgress()">
+
+<div class="layout">
+
+<aside class="sidebar">
+<h2 class="logo">StudyPortal</h2>
+<nav class="menu">
+<a href="home.html">Dashboard</a>
+<a href="lessons.html">Lessons</a>
+<a href="progress.html" class="active">Progress</a>
+</nav>
+</aside>
+
+<main class="content">
+
+<h1 class="page-title">Your Learning Progress</h1>
+<p class="subtitle">Completion percentage based on finished lessons</p>
+
+<div class="progress-card">
+<div class="progressBar">
+<div id="fill"></div>
+</div>
+
+<p id="value" class="progress-text">0% Completed</p>
+</div>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
